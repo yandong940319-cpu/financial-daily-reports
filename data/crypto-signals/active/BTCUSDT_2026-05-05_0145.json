@@ -17,7 +17,7 @@
     "MA20>MA50",
     "1h强趋势向上(ADX26)"
   ],
-  "current_price": 79846.12,
+  "current_price": 79851.0,
   "atr": 447.19,
   "rsi": 64.6,
   "support": 78384.82,
@@ -29,7 +29,7 @@
   "id": "BTCUSDT_2026-05-05_0145",
   "status": "cancelled",
   "created_at": "2026-05-04T17:45:02Z",
-  "closed_at": "2026-05-04T23:54:01Z",
+  "closed_at": "2026-05-04T23:55:01Z",
   "pnl": 0,
   "max_pnl": -24.0,
   "reflection": {
