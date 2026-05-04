@@ -17,7 +17,7 @@
     "MA20>MA50",
     "1h强趋势向上(ADX26)"
   ],
-  "current_price": 80156.02,
+  "current_price": 80149.16,
   "atr": 447.19,
   "rsi": 64.6,
   "support": 78384.82,
@@ -33,7 +33,7 @@
   "pnl": null,
   "max_pnl": 10.0,
   "reflection": null,
-  "pnl_pct": -0.15,
+  "pnl_pct": -0.16,
   "pnl_usd": -6.0,
   "expiry_hours": 4,
   "expiry_reason": "15m短线信号超过4小时未触价则失效，原信号逻辑已不适用"
