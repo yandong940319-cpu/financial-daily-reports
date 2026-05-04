@@ -18,7 +18,7 @@
     "MA20>MA50",
     "1h趋势向上"
   ],
-  "current_price": 2359.1,
+  "current_price": 2358.1,
   "atr": 9.6,
   "rsi": 62.0,
   "support": 2319.68,
@@ -36,6 +36,6 @@
   "pnl": null,
   "max_pnl": 17.0,
   "reflection": null,
-  "pnl_pct": 0.18,
-  "pnl_usd": 7.0
+  "pnl_pct": 0.14,
+  "pnl_usd": 5.0
 }
