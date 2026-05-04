@@ -18,7 +18,7 @@
     "MA20>MA50",
     "1h强趋势向上(ADX21)"
   ],
-  "current_price": 79816.81,
+  "current_price": 79846.12,
   "atr": 147.54,
   "rsi": 53.6,
   "support": 78384.82,
@@ -36,6 +36,6 @@
   "pnl": null,
   "max_pnl": -23.0,
   "reflection": null,
-  "pnl_pct": -0.54,
-  "pnl_usd": -20.0
+  "pnl_pct": -0.5,
+  "pnl_usd": -19.0
 }
