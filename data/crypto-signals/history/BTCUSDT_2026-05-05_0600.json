@@ -18,7 +18,7 @@
     "MA20>MA50",
     "1h强趋势向上(ADX21)"
   ],
-  "current_price": 80352.0,
+  "current_price": 80316.26,
   "atr": 147.54,
   "rsi": 53.6,
   "support": 78384.82,
@@ -30,12 +30,17 @@
   "expiry_hours": 4,
   "expiry_reason": "15m短线信号超过4小时未触价则失效，原信号逻辑已不适用",
   "id": "BTCUSDT_2026-05-05_0600",
-  "status": "active",
+  "status": "cancelled",
   "created_at": "2026-05-04T22:00:03Z",
-  "closed_at": null,
-  "pnl": null,
+  "closed_at": "2026-05-05T02:01:01Z",
+  "pnl": 0,
   "max_pnl": -23.0,
-  "reflection": null,
-  "pnl_pct": 0.13,
-  "pnl_usd": 5.0
+  "reflection": {
+    "result": "EXPIRED",
+    "pnl": 0,
+    "lessons": "信号失效: 超过有效期4小时未触价，自动失效"
+  },
+  "pnl_pct": 0.08,
+  "pnl_usd": 3.0,
+  "cancel_reason": "超过有效期4小时未触价，自动失效"
 }
