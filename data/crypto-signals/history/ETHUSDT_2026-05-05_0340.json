@@ -18,7 +18,7 @@
     "MA20>MA50",
     "1h趋势向上"
   ],
-  "current_price": 2349.77,
+  "current_price": 2351.39,
   "atr": 9.6,
   "rsi": 62.0,
   "support": 2319.68,
@@ -32,7 +32,7 @@
   "id": "ETHUSDT_2026-05-05_0340",
   "status": "cancelled",
   "created_at": "2026-05-04T19:40:02Z",
-  "closed_at": "2026-05-05T00:04:02Z",
+  "closed_at": "2026-05-05T00:05:02Z",
   "pnl": 0,
   "max_pnl": 17.0,
   "reflection": {
@@ -40,7 +40,7 @@
     "pnl": 0,
     "lessons": "信号失效: 超过有效期4小时未触价，自动失效"
   },
-  "pnl_pct": -0.21,
-  "pnl_usd": -8.0,
+  "pnl_pct": -0.14,
+  "pnl_usd": -5.0,
   "cancel_reason": "超过有效期4小时未触价，自动失效"
 }
