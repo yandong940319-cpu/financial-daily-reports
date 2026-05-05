@@ -21,7 +21,7 @@
     "MACD金叉",
     "放量1.3倍"
   ],
-  "current_price": 80658.46,
+  "current_price": 80643.26,
   "atr": 263.57,
   "rsi_15m": 32.5,
   "rsi_30m": 55.1,
@@ -57,6 +57,6 @@
   "pnl": null,
   "max_pnl": -2.0,
   "reflection": null,
-  "pnl_pct": 0.03,
+  "pnl_pct": 0.02,
   "pnl_usd": 1.0
 }
