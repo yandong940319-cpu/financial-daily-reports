@@ -1444,3 +1444,7 @@
 [2026-05-07 04:02:32]   ⚠️ raise URLError(err)
 [2026-05-07 04:02:32]   ⚠️ urllib.error.URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>
 [2026-05-07 04:02:32]   无新通知
+[2026-05-07 04:02:34] ✅ GitHub推送成功
+[2026-05-07 04:02:34] ✅ 扫描完成
+[2026-05-07 04:20:24] ========================================
+[2026-05-07 04:20:24] 🔍 开始15m信号扫描...
