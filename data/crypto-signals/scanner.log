@@ -1867,3 +1867,65 @@
 [2026-05-08 06:15:14]   BTCUSDT: 无信号
 [2026-05-08 06:15:14]   ETHUSDT: 无信号
 [2026-05-08 06:15:14]   无新通知
+[2026-05-08 06:15:16] ✅ GitHub推送成功
+[2026-05-08 06:15:16] ✅ 扫描完成
+[2026-05-08 06:32:25] ========================================
+[2026-05-08 06:32:25] 🔍 开始15m信号扫描...
+[2026-05-08 06:32:41]   [06:32] 检查活跃信号...
+[2026-05-08 06:32:41]   [06:32] 扫描新信号...
+[2026-05-08 06:32:41]   ⚠️ Traceback (most recent call last):
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1348, in do_open
+[2026-05-08 06:32:41]   ⚠️ h.request(req.get_method(), req.selector, req.data, headers,
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1323, in request
+[2026-05-08 06:32:41]   ⚠️ self._send_request(method, url, body, headers, encode_chunked)
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1369, in _send_request
+[2026-05-08 06:32:41]   ⚠️ self.endheaders(body, encode_chunked=encode_chunked)
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1318, in endheaders
+[2026-05-08 06:32:41]   ⚠️ self._send_output(message_body, encode_chunked=encode_chunked)
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1078, in _send_output
+[2026-05-08 06:32:41]   ⚠️ self.send(msg)
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1016, in send
+[2026-05-08 06:32:41]   ⚠️ self.connect()
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1495, in connect
+[2026-05-08 06:32:41]   ⚠️ self.sock = self._context.wrap_socket(self.sock,
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ssl.py", line 519, in wrap_socket
+[2026-05-08 06:32:41]   ⚠️ return self.sslsocket_class._create(
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ssl.py", line 1116, in _create
+[2026-05-08 06:32:41]   ⚠️ self.do_handshake()
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/ssl.py", line 1394, in do_handshake
+[2026-05-08 06:32:41]   ⚠️ self._sslobj.do_handshake()
+[2026-05-08 06:32:41]   ⚠️ TimeoutError: _ssl.c:999: The handshake operation timed out
+[2026-05-08 06:32:41]   ⚠️ During handling of the above exception, another exception occurred:
+[2026-05-08 06:32:41]   ⚠️ Traceback (most recent call last):
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.hermes/scripts/crypto_signal_manager.py", line 804, in <module>
+[2026-05-08 06:32:41]   ⚠️ scan_all()
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.hermes/scripts/crypto_signal_manager.py", line 777, in scan_all
+[2026-05-08 06:32:41]   ⚠️ signal = check_signal(sym)
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.hermes/scripts/crypto_signal_manager.py", line 312, in check_signal
+[2026-05-08 06:32:41]   ⚠️ d15 = klines(symbol, "15m", 200)
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.hermes/scripts/crypto_signal_manager.py", line 32, in klines
+[2026-05-08 06:32:41]   ⚠️ with urllib.request.urlopen(url, timeout=15) as r:
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 216, in urlopen
+[2026-05-08 06:32:41]   ⚠️ return opener.open(url, data, timeout)
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 519, in open
+[2026-05-08 06:32:41]   ⚠️ response = self._open(req, data)
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 536, in _open
+[2026-05-08 06:32:41]   ⚠️ result = self._call_chain(self.handle_open, protocol, protocol +
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 496, in _call_chain
+[2026-05-08 06:32:41]   ⚠️ result = func(*args)
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1391, in https_open
+[2026-05-08 06:32:41]   ⚠️ return self.do_open(http.client.HTTPSConnection, req,
+[2026-05-08 06:32:41]   ⚠️ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-08 06:32:41]   ⚠️ File "/Users/acyan/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1351, in do_open
+[2026-05-08 06:32:41]   ⚠️ raise URLError(err)
+[2026-05-08 06:32:41]   ⚠️ urllib.error.URLError: <urlopen error _ssl.c:999: The handshake operation timed out>
+[2026-05-08 06:32:41]   无新通知
