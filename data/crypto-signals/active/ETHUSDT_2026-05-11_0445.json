@@ -19,7 +19,7 @@
     "布林下轨",
     "MA20>MA50"
   ],
-  "current_price": 2336.04,
+  "current_price": 2334.54,
   "atr": 6.16,
   "rsi_15m": 20.3,
   "rsi_30m": 0,
@@ -51,6 +51,6 @@
   "pnl": null,
   "max_pnl": -9.0,
   "reflection": null,
-  "pnl_pct": 0.2,
-  "pnl_usd": 8.0
+  "pnl_pct": 0.14,
+  "pnl_usd": 5.0
 }
